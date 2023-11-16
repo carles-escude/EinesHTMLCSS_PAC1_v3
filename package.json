@@ -2,14 +2,16 @@
   "devDependencies": {
     "@babel/core": "^7.23.3",
     "@babel/preset-env": "^7.23.3",
+    "@parcel/transformer-sass": "^2.10.3",
     "cssnano": "^6.0.1",
-    "parcel": "^2.10.3",
+    "parcel": "latest",
     "postcss": "^8.4.31",
     "posthtml": "^0.16.6",
     "posthtml-include": "^1.7.4",
     "sass": "^1.69.5"
   },
   "name": "web",
+  "source": "src/html/index.html",
   "version": "1.0.0",
   "dependencies": {
     "abortcontroller-polyfill": "^1.7.5",
@@ -108,7 +110,7 @@
   },
   "scripts": {
     "dev": "parcel src/html/index.html",
-    "pro": "parcel build src/html/index.html --out-dir docs"
+    "pro": "parcel build src/html/index.html"
   },
   "keywords": [],
   "author": "",

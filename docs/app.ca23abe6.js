@@ -124,4 +124,4 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
 require("../styles/main.scss");
 },{"../styles/main.scss":"Q3kP"}]},{},["GFX4"], null)
-//# sourceMappingURL=/app.ca23abe6.js.map
+//# sourceMappingURL=app.ca23abe6.js.map
